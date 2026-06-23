@@ -1,6 +1,6 @@
 export default function FinalSection() {
   return (
-    <section style={{ padding: "6rem 2.5rem", borderBottom: "var(--border)" }}>
+    <section className="section-container">
       <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
 
         <h2 style={{

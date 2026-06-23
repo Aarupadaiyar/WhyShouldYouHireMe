@@ -8,11 +8,7 @@ const CHECKS = [
 
 export default function AfterSection() {
   return (
-    <section style={{
-      padding: "5rem 2.5rem",
-      borderBottom: "var(--border)",
-      background: "var(--text)",
-    }}>
+    <section className="section-container" style={{ background: "var(--text)" }}>
       <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
 
         {/* Heading */}
@@ -41,12 +37,7 @@ export default function AfterSection() {
         </div>
 
         {/* Premium card */}
-        <div style={{
-          border: "1px solid var(--bg)",
-          padding: "3rem",
-          position: "relative",
-          overflow: "hidden",
-        }}>
+        <div className="premium-card">
           {/* Red left stripe */}
           <div style={{
             position: "absolute",
@@ -56,7 +47,7 @@ export default function AfterSection() {
             background: "var(--accent)",
           }} />
 
-          <div style={{ paddingLeft: "1.5rem" }}>
+          <div className="premium-card-content">
             <div style={{
               fontFamily: "'Inter', Helvetica, sans-serif",
               fontSize: "0.63rem",

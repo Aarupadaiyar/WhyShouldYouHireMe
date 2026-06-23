@@ -1,13 +1,6 @@
 export default function Footer() {
   return (
-    <footer style={{
-      padding: "2rem 2.5rem",
-      display: "flex",
-      justifyContent: "space-between",
-      alignItems: "center",
-      flexWrap: "wrap",
-      gap: "1rem",
-    }}>
+    <footer className="footer-container">
       <span style={{
         fontFamily: "'Inter', Helvetica, sans-serif",
         fontSize: "0.68rem",

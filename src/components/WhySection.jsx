@@ -1,15 +1,11 @@
 export default function WhySection() {
   return (
-    <section style={{ padding: "5rem 2.5rem", borderBottom: "var(--border)" }}>
+    <section className="section-container">
       <div
         className="why-grid"
         style={{
           maxWidth: "1200px",
           margin: "0 auto",
-          display: "grid",
-          gridTemplateColumns: "1fr 2fr",
-          gap: "4rem",
-          alignItems: "start",
         }}
       >
         {/* Left: Heading */}
@@ -36,14 +32,7 @@ export default function WhySection() {
         </div>
 
         {/* Right: Body */}
-        <div style={{
-          fontFamily: "'Inter', Helvetica, sans-serif",
-          fontSize: "1.05rem",
-          lineHeight: 1.78,
-          opacity: 0.82,
-          borderLeft: "3px solid var(--accent)",
-          paddingLeft: "2rem",
-        }}>
+        <div className="why-body-col">
           <p style={{ marginBottom: "1.25rem" }}>
             Most applicants explain why they are a fit.
           </p>

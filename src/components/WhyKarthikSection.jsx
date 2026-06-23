@@ -1,10 +1,6 @@
 export default function WhyKarthikSection() {
   return (
-    <section id="why-karthik" style={{
-      padding: "6rem 2.5rem",
-      borderBottom: "var(--border)",
-      background: "var(--bg)",
-    }}>
+    <section id="why-karthik" className="section-container">
       <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
         
         {/* Label and Title */}
@@ -33,12 +29,7 @@ export default function WhyKarthikSection() {
         </div>
 
         {/* Content Layout */}
-        <div style={{
-          display: "grid",
-          gridTemplateColumns: "1.2fr 1fr",
-          gap: "4rem",
-          alignItems: "start",
-        }} className="why-karthik-grid">
+        <div className="why-karthik-grid">
           
           {/* Left Column: The Philosophy */}
           <div style={{
@@ -99,12 +90,7 @@ export default function WhyKarthikSection() {
           </div>
 
           {/* Right Column: The Core Values Box */}
-          <div style={{
-            border: "var(--border)",
-            padding: "2.5rem",
-            background: "#ffffff",
-            boxShadow: "6px 6px 0px #000000",
-          }}>
+          <div className="observed-values-box">
             <h3 style={{
               fontFamily: "'Syne', sans-serif",
               fontWeight: 800,

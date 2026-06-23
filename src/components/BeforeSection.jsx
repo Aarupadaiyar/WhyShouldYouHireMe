@@ -99,7 +99,7 @@ function CostCard({ title, items, cost }) {
 
 export default function BeforeSection() {
   return (
-    <section style={{ padding: "5rem 2.5rem", borderBottom: "var(--border)" }}>
+    <section className="section-container">
       <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
 
         {/* Heading */}
@@ -134,16 +134,9 @@ export default function BeforeSection() {
         </div>
 
         {/* Grid */}
-        <div className="before-grid" style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(3, 1fr)",
-          border: "var(--border)",
-        }}>
+        <div className="before-grid">
           {CARDS.map((card, i) => (
-            <div key={i} style={{
-              borderRight: i % 3 !== 2 ? "var(--border)" : "none",
-              borderBottom: i < 3 ? "var(--border)" : "none",
-            }}>
+            <div key={i} className="before-grid-item">
               <CostCard {...card} />
             </div>
           ))}

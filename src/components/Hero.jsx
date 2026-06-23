@@ -1,9 +1,6 @@
 export default function Hero() {
   return (
-    <section style={{
-      padding: "5rem 2.5rem 4rem",
-      borderBottom: "var(--border)",
-    }}>
+    <section className="section-container">
       <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
 
         <div style={{
@@ -20,7 +17,7 @@ export default function Hero() {
         <h1 style={{
           fontFamily: "'Montserrat', sans-serif",
           fontWeight: 900,
-          fontSize: "clamp(3.5rem, 11vw, 9rem)",
+          fontSize: "clamp(2.2rem, 11vw, 9rem)",
           lineHeight: 0.92,
           letterSpacing: "-0.02em",
           marginBottom: "2.5rem",

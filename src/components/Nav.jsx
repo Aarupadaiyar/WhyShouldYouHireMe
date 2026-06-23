@@ -1,16 +1,6 @@
 export default function Nav() {
   return (
-    <nav style={{
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "space-between",
-      padding: "1.25rem 2.5rem",
-      borderBottom: "var(--border)",
-      background: "var(--bg)",
-      position: "sticky",
-      top: 0,
-      zIndex: 100,
-    }}>
+    <nav className="nav-container">
       <span style={{
         fontFamily: "'Syne', sans-serif",
         fontWeight: 800,

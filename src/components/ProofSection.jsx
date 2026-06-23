@@ -59,7 +59,7 @@ function ProofCard({ label, sub, href }) {
 
 export default function ProofSection() {
   return (
-    <section style={{ padding: "5rem 2.5rem", borderBottom: "var(--border)" }}>
+    <section className="section-container">
       <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
 
         <div style={{ marginBottom: "3rem" }}>
@@ -84,21 +84,9 @@ export default function ProofSection() {
           </h2>
         </div>
 
-        <div
-          className="proof-grid"
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(4, 1fr)",
-            border: "var(--border)",
-          }}
-        >
+        <div className="proof-grid">
           {LINKS.map((card, i) => (
-            <div
-              key={i}
-              style={{
-                borderRight: i < LINKS.length - 1 ? "var(--border)" : "none",
-              }}
-            >
+            <div key={i} className="proof-grid-item">
               <ProofCard {...card} />
             </div>
           ))}
