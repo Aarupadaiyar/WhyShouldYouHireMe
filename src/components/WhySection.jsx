@@ -45,57 +45,28 @@ export default function WhySection() {
           paddingLeft: "2rem",
         }}>
           <p style={{ marginBottom: "1.25rem" }}>
-            Most applicants explain why they're a fit.
+            Most applicants explain why they are a fit.
           </p>
           <p style={{ marginBottom: "1.25rem" }}>
-            I wanted to answer a different question.
+            I thought it would be more interesting to{" "}
+            <strong>demonstrate how I think.</strong>
           </p>
-          <p style={{
-            fontSize: "1.25rem",
-            fontWeight: 700,
-            fontFamily: "'Syne', sans-serif",
-            lineHeight: 1.3,
-            marginBottom: "1.5rem",
-            color: "var(--text)",
-          }}>
-            "What would I build if I were already an intern at Schpot?"
+          <p style={{ marginBottom: "1.25rem" }}>
+            The internship description mentioned builders.
           </p>
-          <p style={{ marginBottom: "0.75rem" }}>
-            So instead of sending another generic application, I spent my time:
+          <p style={{ marginBottom: "1.25rem" }}>
+            So instead of writing another generic cover letter, I spent my time
+            reverse-engineering a design language, understanding the product,
+            and building something.
           </p>
-          <ul style={{
-            listStyle: "none",
-            padding: 0,
-            marginBottom: "1.5rem",
-            display: "flex",
-            flexDirection: "column",
-            gap: "0.5rem",
-          }}>
-            {[
-              "Studying Schpot",
-              "Reverse engineering the visual language",
-              "Understanding the company",
-              "Building something"
-            ].map((item, i) => (
-              <li key={i} style={{
-                display: "flex",
-                alignItems: "center",
-                gap: "0.75rem",
-                fontWeight: 600,
-              }}>
-                <span style={{ color: "var(--accent)" }}>•</span>
-                {item}
-              </li>
-            ))}
-          </ul>
           <p style={{
             fontFamily: "'Syne', sans-serif",
             fontWeight: 700,
             opacity: 1,
             color: "var(--text)",
           }}>
-            Nobody asked me to do this.<br />
-            Curiosity got in the way.
+            Not because it was required.<br />
+            Because curiosity got in the way.
           </p>
         </div>
       </div>

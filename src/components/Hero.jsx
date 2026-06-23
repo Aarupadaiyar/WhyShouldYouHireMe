@@ -14,7 +14,7 @@ export default function Hero() {
           marginBottom: "1.5rem",
           opacity: 0.45,
         }}>
-          CASE STUDY — SCHPOT INTERNSHIP — JUNE 2026
+          CASE STUDY — COST OPTIMIZATION — Q2 2025
         </div>
 
         <h1 style={{
@@ -27,12 +27,12 @@ export default function Hero() {
         }}>
           HIRING<br />
           <span style={{ color: "var(--accent)" }}>AARUPADAIYAR</span><br />
-          @ SCHPOT
+          KJ
         </h1>
 
         <div style={{
           display: "flex",
-          alignItems: "flex-start",
+          alignItems: "flex-end",
           justifyContent: "space-between",
           flexWrap: "wrap",
           gap: "2rem",
@@ -47,31 +47,17 @@ export default function Hero() {
               borderLeft: "3px solid var(--accent)",
               paddingLeft: "1rem",
             }}>
-              Most applicants send resumes.<br />
-              I studied Schpot's design language and built this instead.
+              A Cost Optimization Case Study
             </p>
-
-            <div style={{
-              marginTop: "2rem",
-              padding: "1.5rem",
-              border: "2px solid var(--accent)",
-              background: "rgba(214, 26, 26, 0.04)",
+            <p style={{
               fontFamily: "'Inter', Helvetica, sans-serif",
               fontSize: "0.82rem",
-              lineHeight: "1.6",
-              maxWidth: "600px",
+              opacity: 0.5,
+              marginTop: "0.5rem",
+              paddingLeft: "1rem",
             }}>
-              <p style={{ fontWeight: 800, color: "var(--accent)", marginBottom: "0.5rem", textTransform: "uppercase", letterSpacing: "0.05em" }}>
-                PS: THIS PAGE WAS BUILT SPECIFICALLY UNDER THE STYLING INFLUENCE OF SCHPOT'S OFFICIAL WEBSITE
-              </p>
-              <p style={{ fontWeight: 600, marginBottom: "0.5rem" }}>
-                I intentionally tried to recreate elements from Schpot's public website and branding.
-              </p>
-              <p style={{ fontWeight: 800, textTransform: "uppercase", letterSpacing: "0.03em" }}>
-                THIS IS NOT SCHPOT'S OFFICIAL WEBSITE.<br />
-                IT IS A FAN-MADE APPLICATION CREATED FOR THIS INTERNSHIP.
-              </p>
-            </div>
+              For internal review by whoever hires interns.
+            </p>
           </div>
 
           <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap" }}>

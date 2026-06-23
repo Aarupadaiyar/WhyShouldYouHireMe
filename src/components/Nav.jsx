@@ -21,13 +21,8 @@ export default function Nav() {
       </span>
 
       <div className="nav-links" style={{ display: "flex", gap: "0.25rem" }}>
-        {[
-          { label: "Before Hiring Me", href: "#before-hiring-me" },
-          { label: "Proof Of Work", href: "#proof-of-work" },
-          { label: "Why Karthik?", href: "#why-karthik" },
-          { label: "Contact", href: "#contact" }
-        ].map(item => (
-          <a key={item.label} href={item.href} className="nav-link" style={{
+        {["COST ANALYSIS", "PROOF OF WORK", "CONTACT"].map(item => (
+          <span key={item} style={{
             fontFamily: "'Inter', Helvetica, sans-serif",
             fontSize: "0.63rem",
             fontWeight: 600,
@@ -35,10 +30,9 @@ export default function Nav() {
             padding: "0.4rem 0.75rem",
             border: "var(--border)",
             cursor: "pointer",
-            textTransform: "uppercase",
           }}>
-            {item.label}
-          </a>
+            {item}
+          </span>
         ))}
       </div>
     </nav>

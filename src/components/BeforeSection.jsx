@@ -99,7 +99,7 @@ function CostCard({ title, items, cost }) {
 
 export default function BeforeSection() {
   return (
-    <section id="before-hiring-me" style={{ padding: "5rem 2.5rem", borderBottom: "var(--border)" }}>
+    <section style={{ padding: "5rem 2.5rem", borderBottom: "var(--border)" }}>
       <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
 
         {/* Heading */}

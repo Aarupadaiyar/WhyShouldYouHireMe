@@ -14,7 +14,7 @@ export default function Footer() {
         opacity: 0.38,
         letterSpacing: "0.08em",
       }}>
-        © 2026 AARUPADAIYAR KJ — ALL RISKS RETAINED BY HIRER
+        © 2025 AARUPADAIYAR KJ — ALL RISKS RETAINED BY HIRER
       </span>
       <span style={{
         fontFamily: "'Syne', sans-serif",
