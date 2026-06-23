@@ -1,9 +1,9 @@
 // ── Update the href values below with your real links ──
 const LINKS = [
-  { label: "PORTFOLIO", sub: "SELECTED WORK",     href: "#" },
-  { label: "GITHUB",    sub: "CODE",               href: "https://github.com" },
-  { label: "LINKEDIN",  sub: "PROFESSIONAL",       href: "https://linkedin.com" },
-  { label: "RESUME",    sub: "ONE PAGE · PDF",     href: "#" },
+  { label: "PORTFOLIO", sub: "SELECTED WORK", href: "https://aarupadaiyar.vercel.app/" },
+  { label: "GITHUB",    sub: "CODE",               href: "https://github.com/Aarupadaiyar" },
+  { label: "LINKEDIN",  sub: "PROFESSIONAL",       href: "https://www.linkedin.com/in/aarupadaiyarkj/" },
+  { label: "RESUME",    sub: "ONE PAGE · PDF",     href: "/resume.pdf" }
 ];
 
 function ProofCard({ label, sub, href }) {
