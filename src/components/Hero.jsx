@@ -1,40 +1,29 @@
 export default function Hero() {
   return (
-    <section className="section-container">
+    <section className="section-container hero-section">
       <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
 
-        <div style={{
-          fontFamily: "'Inter', Helvetica, sans-serif",
-          fontSize: "0.68rem",
-          fontWeight: 600,
-          letterSpacing: "0.25em",
-          marginBottom: "1.5rem",
-          opacity: 0.45,
-        }}>
-          CASE STUDY — COST OPTIMIZATION — Q2 2025
+        {/* Case Study Label */}
+        <div className="hero-label">
+          CASE STUDY — SCHPOT INTERNSHIP — JUNE 2026
         </div>
 
-        <h1 style={{
-          fontFamily: "'Montserrat', sans-serif",
-          fontWeight: 900,
-          fontSize: "clamp(2.2rem, 11vw, 9rem)",
-          lineHeight: 0.92,
-          letterSpacing: "-0.02em",
-          marginBottom: "2.5rem",
-        }}>
-          HIRING<br />
-          <span style={{ color: "var(--accent)" }}>AARUPADAIYAR</span><br />
-          KJ
+        {/* Hero Title — each line is a block so no orphan characters ever appear */}
+        <h1 className="hero-title">
+          <span className="hero-line">HIRING</span>
+          <span className="hero-line hero-accent">AARUPADAIYAR</span>
+          <span className="hero-line">@ SCHPOT</span>
         </h1>
 
         <div style={{
           display: "flex",
-          alignItems: "flex-end",
+          alignItems: "flex-start",
           justifyContent: "space-between",
           flexWrap: "wrap",
           gap: "2rem",
         }}>
           <div>
+            {/* Subtitle */}
             <p style={{
               fontFamily: "'Inter', Helvetica, sans-serif",
               fontSize: "1.05rem",
@@ -44,17 +33,32 @@ export default function Hero() {
               borderLeft: "3px solid var(--accent)",
               paddingLeft: "1rem",
             }}>
-              A Cost Optimization Case Study
+              Most applicants send resumes.<br />
+              I studied Schpot's design language and built this instead.
             </p>
-            <p style={{
+
+            {/* PS Notice */}
+            <div style={{
+              marginTop: "2rem",
+              padding: "1.5rem",
+              border: "2px solid var(--accent)",
+              background: "rgba(214, 26, 26, 0.04)",
               fontFamily: "'Inter', Helvetica, sans-serif",
               fontSize: "0.82rem",
-              opacity: 0.5,
-              marginTop: "0.5rem",
-              paddingLeft: "1rem",
+              lineHeight: "1.6",
+              maxWidth: "600px",
             }}>
-              For internal review by whoever hires interns.
-            </p>
+              <p style={{ fontWeight: 800, color: "var(--accent)", marginBottom: "0.5rem", textTransform: "uppercase", letterSpacing: "0.05em" }}>
+                <strong>PS: THIS PAGE WAS BUILT SPECIFICALLY UNDER THE STYLING INFLUENCE OF SCHPOT'S</strong>
+              </p>
+              <p style={{ fontWeight: 600, marginBottom: "0.5rem" }}>
+                I intentionally tried to recreate elements from Schpot's public website and branding.
+              </p>
+              <p style={{ fontWeight: 800, textTransform: "uppercase", letterSpacing: "0.03em" }}>
+                THIS IS NOT SCHPOT'S OFFICIAL WEBSITE.<br />
+                IT IS A FAN‑MADE APPLICATION CREATED FOR THIS INTERNSHIP.
+              </p>
+            </div>
           </div>
 
           <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap" }}>

@@ -281,5 +281,152 @@ body {
   }
 }
 
+/* ── Hero Typography ── */
+.hero-section {
+  padding-bottom: 4rem;
+}
+
+.hero-label {
+  font-family: 'Inter', Helvetica, sans-serif;
+  font-size: clamp(0.52rem, 1vw, 0.68rem);
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  margin-bottom: 1.25rem;
+  opacity: 0.45;
+  text-transform: uppercase;
+}
+
+.hero-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  /*
+   * AARUPADAIYAR = 12 chars × ~0.58em ≈ 7em wide.
+   * clamp(min, preferred, max):
+   *   – 320px viewport → 5.8vw × 3.2 ≈ 2.2rem → 12 × 0.58 × 2.2 = ~15.3px per char, fits 280px available ✓
+   *   – 768px → 5.8vw = 44.5px → title ~303px, fits 728px ✓
+   *   – 1024px → 5.8vw = 59.4px → title ~405px, fits 984px ✓
+   *   – 1440px → 5.8vw = 83.5px → capped at 5.5rem = 88px → title ~600px ✓
+   *   – 1920px → capped at 5.5rem ✓
+   */
+  font-size: clamp(2.1rem, 5.8vw, 5.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
+  overflow-wrap: break-word;
+}
+
+/* Each line is a block — no orphan characters, no mid-word breaks */
+.hero-line {
+  display: block;
+  white-space: nowrap;
+}
+
+.hero-accent {
+  color: var(--accent);
+}
+
+
+/* ── Floating Badge ── */
+.floating-badge {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  background: var(--text);
+  color: var(--bg);
+  padding: 0.85rem 1.1rem;
+  font-family: 'Inter', Helvetica, sans-serif;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1.5;
+  z-index: 200;
+  max-width: 240px;
+  border: 2px solid var(--accent);
+}
+@media (max-width: 480px) {
+  .floating-badge {
+    bottom: 1rem;
+    right: 1rem;
+    left: 1rem;
+    max-width: none;
+    font-size: 0.58rem;
+  }
+}
+
+/* ── Hamburger ── */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem;
+  z-index: 170;
+}
+.hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--text);
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  transform-origin: center;
+}
+.hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.hamburger.open span:nth-child(2) { opacity: 0; }
+.hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+@media (max-width: 768px) {
+  .hamburger { display: flex; }
+}
+
+/* ── Mobile Drawer ── */
+.mobile-drawer {
+  display: none;
+  flex-direction: column;
+  background: var(--bg);
+  border-bottom: var(--border);
+  position: sticky;
+  top: 56px;
+  z-index: 150;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease;
+}
+.mobile-drawer.open {
+  max-height: 400px;
+}
+.mobile-drawer a {
+  display: block;
+  padding: 1rem 1.25rem;
+  font-family: 'Inter', Helvetica, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--text);
+  border-bottom: var(--border);
+  transition: background 0.1s ease;
+}
+.mobile-drawer a:hover { background: var(--text); color: var(--bg); }
+@media (max-width: 768px) {
+  .mobile-drawer { display: flex; }
+}
+
+/* ── Contact Grid ── */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
 
 

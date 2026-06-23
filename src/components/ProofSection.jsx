@@ -1,9 +1,9 @@
 // ── Update the href values below with your real links ──
 const LINKS = [
-  { label: "PORTFOLIO", sub: "SELECTED WORK", href: "https://aarupadaiyar.vercel.app/" },
-  { label: "GITHUB",    sub: "CODE",               href: "https://github.com/Aarupadaiyar" },
-  { label: "LINKEDIN",  sub: "PROFESSIONAL",       href: "https://www.linkedin.com/in/aarupadaiyarkj/" },
-  { label: "RESUME",    sub: "ONE PAGE · PDF",     href: "/resume.pdf" }
+  { label: "PORTFOLIO", sub: "SELECTED WORK",   href: "https://aarupadaiyar.vercel.app/" },
+  { label: "GITHUB",    sub: "CODE",             href: "https://github.com/Aarupadaiyar" },
+  { label: "LINKEDIN",  sub: "PROFESSIONAL",     href: "https://www.linkedin.com/in/aarupadaiyarkj/" },
+  { label: "RESUME",    sub: "ONE PAGE · PDF",   href: "/resume.pdf" },
 ];
 
 function ProofCard({ label, sub, href }) {
@@ -13,6 +13,7 @@ function ProofCard({ label, sub, href }) {
       target="_blank"
       rel="noopener noreferrer"
       className="proof-card"
+      aria-label={`${label} — ${sub}`}
       style={{
         display: "flex",
         flexDirection: "column",
@@ -59,7 +60,7 @@ function ProofCard({ label, sub, href }) {
 
 export default function ProofSection() {
   return (
-    <section className="section-container">
+    <section id="proof-of-work" className="section-container">
       <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
 
         <div style={{ marginBottom: "3rem" }}>
