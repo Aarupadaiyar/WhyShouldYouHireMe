@@ -137,7 +137,7 @@ body {
   border-right: none;
 }
 
-.why-karthik-grid {
+.why-steve-grid {
   display: grid;
   grid-template-columns: 1.2fr 1fr;
   gap: 4rem;
@@ -211,7 +211,7 @@ body {
     width: 100% !important;
     text-align: center !important;
   }
-  .why-karthik-grid {
+  .why-steve-grid {
     grid-template-columns: 1fr;
     gap: 2.5rem;
   }
@@ -268,7 +268,7 @@ body {
   }
 }
 
-/* ── WhyKarthikSection Values Box ── */
+/* ── WhySteveSection Values Box ── */
 .observed-values-box {
   border: var(--border);
   padding: 2.5rem;
