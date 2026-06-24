@@ -5,7 +5,7 @@
 }
 
 :root {
-  --accent: #F6D76B;
+  --accent: #D61A1A;
   --bg: #F5F2EB;
   --text: #000000;
   --border: 1px solid #000000;
@@ -137,7 +137,7 @@ body {
   border-right: none;
 }
 
-.why-steve-grid {
+.why-karthik-grid {
   display: grid;
   grid-template-columns: 1.2fr 1fr;
   gap: 4rem;
@@ -211,7 +211,7 @@ body {
     width: 100% !important;
     text-align: center !important;
   }
-  .why-steve-grid {
+  .why-karthik-grid {
     grid-template-columns: 1fr;
     gap: 2.5rem;
   }
@@ -268,7 +268,7 @@ body {
   }
 }
 
-/* ── WhySteveSection Values Box ── */
+/* ── WhyKarthikSection Values Box ── */
 .observed-values-box {
   border: var(--border);
   padding: 2.5rem;

@@ -66,7 +66,7 @@ export default function FinalSection() {
               <button
                 className="cta-primary"
                 onClick={() => window.open("mailto:aarupadaiyarjeyapal@gmail.com", "_blank")}
-                aria-label="Email me: Trafy already cost me a weekend"
+                aria-label="Email me: Schpot already cost me a weekend"
                 style={{
                   width: "100%",
                   border: "2px solid var(--text)",
@@ -83,7 +83,7 @@ export default function FinalSection() {
                   textTransform: "uppercase",
                 }}
               >
-                TRAFY ALREADY COST ME A WEEKEND. →
+                SCHPOT ALREADY COST ME A WEEKEND. →
               </button>
               <p style={{
                 fontFamily: "'Inter', Helvetica, sans-serif",

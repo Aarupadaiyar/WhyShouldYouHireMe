@@ -27,33 +27,26 @@ export default function WhySection() {
             lineHeight: 0.95,
             letterSpacing: "-0.02em",
           }}>
-            WHY THIS<br />LOOKS THE<br />WAY IT DOES
+            WHY<br />THIS PAGE<br />EXISTS
           </h2>
         </div>
 
         {/* Right: Body */}
         <div className="why-body-col">
           <p style={{ marginBottom: "1.25rem" }}>
-            This page wasn't designed by studying a website.
+            Most applicants explain why they are a fit.
           </p>
           <p style={{ marginBottom: "1.25rem" }}>
-            <strong>It was designed by studying a builder.</strong>
+            I thought it would be more interesting to{" "}
+            <strong>demonstrate how I think.</strong>
           </p>
           <p style={{ marginBottom: "1.25rem" }}>
-            After reading Steven Bennett's posts, interviews, and public thoughts, a few themes kept appearing:<br/><br/>
-            • Bold execution<br/>
-            • Constant experimentation<br/>
-            • Learning through action<br/>
-            • Resilience after failure<br/>
-            • Building despite uncertainty
+            The internship description mentioned builders.
           </p>
           <p style={{ marginBottom: "1.25rem" }}>
-            The visual language of this page reflects those traits.
-          </p>
-          <p style={{ marginBottom: "1.25rem" }}>
-            Simple.<br/>
-            Direct.<br/>
-            Unapologetically builder-first.
+            So instead of writing another generic cover letter, I spent my time
+            reverse-engineering a design language, understanding the product,
+            and building something.
           </p>
           <p style={{
             fontFamily: "'Syne', sans-serif",
@@ -61,8 +54,8 @@ export default function WhySection() {
             opacity: 1,
             color: "var(--text)",
           }}>
-            If Trafy teaches people to build with AI,<br />
-            I thought the application should be built the same way.
+            Not because it was required.<br />
+            Because curiosity got in the way.
           </p>
         </div>
       </div>
