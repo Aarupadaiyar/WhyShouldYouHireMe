@@ -1,6 +1,6 @@
-export default function WhySteveSection() {
+export default function WhyKarthikSection() {
   return (
-    <section id="why-steve" className="section-container">
+    <section id="why-karthik" className="section-container">
       <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
         
         {/* Label and Title */}
@@ -29,7 +29,7 @@ export default function WhySteveSection() {
         </div>
 
         {/* Content Layout */}
-        <div className="why-steve-grid">
+        <div className="why-karthik-grid">
           
           {/* Left Column: The Philosophy */}
           <div style={{
@@ -61,13 +61,6 @@ export default function WhySteveSection() {
             </p>
             <p style={{ marginBottom: "2.5rem", opacity: 0.8 }}>
               The goal isn't simply getting an internship. The goal is learning how builders think when they're creating products in the real world.
-            </p>
-
-            <p style={{ marginBottom: "1.75rem", opacity: 0.8 }}>
-              One theme kept appearing in Steven's journey:<br /><br />
-              <strong>Persistence.</strong><br /><br />
-              Twelve years of entrepreneurship means surviving failures, setbacks, uncertainty, and still choosing to build.<br /><br />
-              That's a mindset I deeply respect.
             </p>
 
             <div style={{

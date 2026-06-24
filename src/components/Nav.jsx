@@ -6,7 +6,7 @@ export default function Nav() {
   const menuItems = [
     { label: "Before Hiring Me", href: "#before-hiring-me" },
     { label: "Proof Of Work",    href: "#proof-of-work" },
-    { label: "Why Steven?",     href: "#why-steve" },
+    { label: "Why Steven?",     href: "#why-karthik" },
     { label: "Contact",          href: "#contact" },
   ];
 

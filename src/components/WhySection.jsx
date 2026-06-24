@@ -27,33 +27,25 @@ export default function WhySection() {
             lineHeight: 0.95,
             letterSpacing: "-0.02em",
           }}>
-            WHY THIS<br />LOOKS THE<br />WAY IT DOES
+            WHY<br />THIS PAGE<br />EXISTS
           </h2>
         </div>
 
         {/* Right: Body */}
         <div className="why-body-col">
           <p style={{ marginBottom: "1.25rem" }}>
-            This page wasn't designed by studying a website.
+            Most applicants explain why they're a fit.
           </p>
           <p style={{ marginBottom: "1.25rem" }}>
-            <strong>It was designed by studying a builder.</strong>
+            I wanted to answer a different question.<br/>
+            <strong>"What would I build if I were already contributing to Trafy?"</strong>
           </p>
           <p style={{ marginBottom: "1.25rem" }}>
-            After reading Steven Bennett's posts, interviews, and public thoughts, a few themes kept appearing:<br/><br/>
-            • Bold execution<br/>
-            • Constant experimentation<br/>
-            • Learning through action<br/>
-            • Resilience after failure<br/>
-            • Building despite uncertainty
-          </p>
-          <p style={{ marginBottom: "1.25rem" }}>
-            The visual language of this page reflects those traits.
-          </p>
-          <p style={{ marginBottom: "1.25rem" }}>
-            Simple.<br/>
-            Direct.<br/>
-            Unapologetically builder-first.
+            So instead of sending another generic application, I spent my time:<br/>
+            • Understanding Trafy's mission<br/>
+            • Studying Steven Bennett's public thinking<br/>
+            • Analyzing the company<br/>
+            • Building something
           </p>
           <p style={{
             fontFamily: "'Syne', sans-serif",
@@ -61,8 +53,8 @@ export default function WhySection() {
             opacity: 1,
             color: "var(--text)",
           }}>
-            If Trafy teaches people to build with AI,<br />
-            I thought the application should be built the same way.
+            Nobody asked me to do this.<br />
+            Curiosity got in the way.
           </p>
         </div>
       </div>
