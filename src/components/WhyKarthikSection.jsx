@@ -23,7 +23,7 @@ export default function WhyKarthikSection() {
             letterSpacing: "-0.02em",
             textTransform: "uppercase",
           }}>
-            WHY KARTHIK MIGHT BE<br />
+            WHY STEVEN BENNETT MIGHT BE<br />
             <span style={{ color: "var(--accent)" }}>MY BEST BOSS</span>
           </h2>
         </div>
@@ -54,13 +54,13 @@ export default function WhyKarthikSection() {
             </p>
 
             <p style={{ marginBottom: "1.75rem", opacity: 0.8 }}>
-              I don't need someone to constantly manage me.
+              You openly talk about building, experimenting, validating, and shipping.
             </p>
             <p style={{ marginBottom: "1.75rem", opacity: 0.8 }}>
-              I need proximity to people building interesting things.
+              Those are the skills I want to develop.
             </p>
             <p style={{ marginBottom: "2.5rem", opacity: 0.8 }}>
-              The goal isn't just getting an internship. The goal is getting exposure to how great builders think.
+              The goal isn't simply getting an internship. The goal is learning how builders think when they're creating products in the real world.
             </p>
 
             <div style={{
@@ -84,7 +84,7 @@ export default function WhyKarthikSection() {
                 lineHeight: 1.3,
                 marginTop: "0.25rem",
               }}>
-                Great bosses accidentally create future founders.
+                Great bosses create future builders.
               </p>
             </div>
           </div>
@@ -100,7 +100,7 @@ export default function WhyKarthikSection() {
               textTransform: "uppercase",
               opacity: 0.4,
             }}>
-              OBSERVED VALUES
+              FROM EVERYTHING I'VE RESEARCHED, YOU SEEM TO VALUE:
             </h3>
             
             <div style={{
@@ -109,10 +109,12 @@ export default function WhyKarthikSection() {
               gap: "1.5rem",
             }}>
               {[
-                { title: "Shipping over perfection", desc: "Values bias for action over endless refinement." },
-                { title: "Building over talking", desc: "Prefers running prototypes to slide decks." },
-                { title: "Experimentation over bureaucracy", desc: "Encourages testable ideas over permission cycles." },
-                { title: "Curiosity over credentials", desc: "Looks for deep interest rather than impressive paper trails." }
+                { title: "Execution over credentials" },
+                { title: "Building over talking" },
+                { title: "Curiosity over certainty" },
+                { title: "Learning speed over perfection" },
+                { title: "Ownership over supervision" },
+                { title: "Small high-impact teams" }
               ].map((value, idx) => (
                 <div key={idx} style={{
                   display: "flex",
@@ -148,7 +150,7 @@ export default function WhyKarthikSection() {
               lineHeight: 1.5,
               opacity: 0.7,
             }}>
-              From what I've observed, you seem to value these. That's exactly the kind of place where I learn fastest.
+              That's exactly the kind of environment where I learn fastest.
             </p>
           </div>
 

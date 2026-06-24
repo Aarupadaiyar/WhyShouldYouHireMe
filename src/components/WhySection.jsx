@@ -34,19 +34,18 @@ export default function WhySection() {
         {/* Right: Body */}
         <div className="why-body-col">
           <p style={{ marginBottom: "1.25rem" }}>
-            Most applicants explain why they are a fit.
+            Most applicants explain why they're a fit.
           </p>
           <p style={{ marginBottom: "1.25rem" }}>
-            I thought it would be more interesting to{" "}
-            <strong>demonstrate how I think.</strong>
+            I wanted to answer a different question.<br/>
+            <strong>"What would I build if I were already contributing to Trafy?"</strong>
           </p>
           <p style={{ marginBottom: "1.25rem" }}>
-            The internship description mentioned builders.
-          </p>
-          <p style={{ marginBottom: "1.25rem" }}>
-            So instead of writing another generic cover letter, I spent my time
-            reverse-engineering a design language, understanding the product,
-            and building something.
+            So instead of sending another generic application, I spent my time:<br/>
+            • Understanding Trafy's mission<br/>
+            • Studying Steven Bennett's public thinking<br/>
+            • Analyzing the company<br/>
+            • Building something
           </p>
           <p style={{
             fontFamily: "'Syne', sans-serif",
@@ -54,8 +53,8 @@ export default function WhySection() {
             opacity: 1,
             color: "var(--text)",
           }}>
-            Not because it was required.<br />
-            Because curiosity got in the way.
+            Nobody asked me to do this.<br />
+            Curiosity got in the way.
           </p>
         </div>
       </div>

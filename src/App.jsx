@@ -25,8 +25,8 @@ export default function App() {
 
       {/* Floating Badge */}
       <div className="floating-badge">
-        <span style={{ color: "var(--accent)" }}>BUILT AFTER READING THE INTERNSHIP POST.</span><br />
-        <span style={{ opacity: 0.6 }}>NOT AFTER READING A RESUME GUIDE.</span>
+        <span style={{ color: "var(--accent)" }}>BUILT AFTER STUDYING TRAFY.</span><br />
+        <span style={{ opacity: 0.6 }}>NOT AFTER WATCHING CAREER ADVICE VIDEOS.</span>
       </div>
     </div>
   )
